@@ -13,6 +13,14 @@ body {
   text-shadow: 2px 2px 3px#070707;
 }
 
+.maincaption2 {
+  font-size: 3.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 3px#070707;
+}
+
 .sub {
   font-size: 2.5rem;
   margin-top: -2rem;
@@ -55,6 +63,18 @@ header {
  
 }
 
+.facs {
+  background-image: url(images/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;  
+ 
+}
+
 section {
   padding: 2rem;
   text-align: center;
@@ -80,6 +100,15 @@ button:hover {
   height: 60.4px;
   border: 3px solid white;
 }
+
+.telegram-button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #0400ed;
+
+}
+
 
 #timer {
   font-size: 24px;

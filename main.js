@@ -1,14 +1,25 @@
+function openFacilitatorsPage() {
+  // Open a new tab with the facilitators' page
+  window.open('facilitators.html', '_blank');
+}
+
 function joinClass() {
   // Replace 'YOUR_WHATSAPP_GROUP_LINK' with your actual WhatsApp group invite link
-  var whatsappGroupLink = 'https://web.whatsapp.com/';
+  var telegramGroupLink = 'https://t.me/+VUrSF4OT4qcyZWM0';
 
   // Open the WhatsApp group link in a new tab
-  window.open(whatsappGroupLink, '_blank');
+  window.open(telegramGroupLink, '_blank');
 
   // Display the confirmation message and start the countdown timer
   document.getElementById('confirmation').style.display = 'block';
   startTimer();
 }
+
+// function joinClass() {
+//   document.getElementById('confirmation').style.display = 'block';
+//   startTimer();
+// }
+
 
 
 function startTimer() {

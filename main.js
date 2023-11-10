@@ -1,15 +1,3 @@
-// function joinClass() {
-//   // Replace 'YOUR_WHATSAPP_GROUP_LINK' with your actual WhatsApp group invite link
-//   var whatsappGroupLink = 'YOUR_WHATSAPP_GROUP_LINK';
-
-//   // Open the WhatsApp group link in a new tab
-//   window.open(whatsappGroupLink, '_blank');
-
-//   // Display the confirmation message and start the countdown timer
-//   document.getElementById('confirmation').style.display = 'block';
-//   startTimer();
-// }
-
 function joinClass() {
   document.getElementById('confirmation').style.display = 'block';
   startTimer();

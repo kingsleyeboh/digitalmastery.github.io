@@ -3,7 +3,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
+
 
 /* header section */
 .maincaption {
@@ -16,8 +19,8 @@ body {
 
 
 .sub {
-  font-size: 2.5rem;
-  margin-top: -2rem;
+  font-size: 2rem;
+  margin-top: -1rem;
   text-shadow: 2px 2px 3px#070707;
 }
 
@@ -39,9 +42,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 100%;
   color: white;
-  padding: 3rem 1rem;
+  padding: 3rem 0.5rem;
   text-align: center; 
 }
 
@@ -75,12 +78,30 @@ button:hover {
   align-items: center;
   padding: .7rem;
   margin-top: 5px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 
+.python {
+  border-right: 2px solid rgb(155, 155, 155);
+  padding-right: 40px;
+}
+.digital_marketing {
+  border-right: 2px solid rgb(155, 155, 155);
+  padding-right: 40px;
+}
+
+.forex_trading {
+ 
+  padding-left: 0 25px;
+}
+
 img {
-  width: 300px;
-  height: 120px;
+  width: 400px;
+  height: 150px;
+  margin-bottom: -12px;
+  border-radius: 5px;
 }
 
 #timer {
@@ -165,6 +186,8 @@ img {
     align-items: center;
     padding: .5rem;
     margin-top: 3px;
+    text-align: center;
+    font-size: .5rem;
     
   }
   

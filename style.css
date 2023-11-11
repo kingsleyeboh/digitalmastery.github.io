@@ -5,13 +5,90 @@ body {
   box-sizing: border-box;
 }
 
+/* header section */
 .maincaption {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: normal;
   letter-spacing: 3px;
   text-shadow: 2px 2px 3px#070707;
 }
+
+
+.sub {
+  font-size: 2.5rem;
+  margin-top: -2rem;
+  text-shadow: 2px 2px 3px#070707;
+}
+
+.subcaption {
+  padding: 0 6rem;
+  margin-top: -2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 3px#070707;
+  font-size: 1.3rem;
+}
+
+
+.wrapper {
+  
+}
+
+header {
+  background-image: url(images/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center; 
+}
+
+
+button {
+  width: 20rem;
+  height: 60px;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 4px;
+  background-color: #ED0800;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+button:hover {
+  width: 20.4rem;
+  height: 60.4px;
+  border: 3px solid white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .7rem;
+  margin-top: 5px;
+  
+}
+
+img {
+  width: 300px;
+  height: 120px;
+}
+
+#timer {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+/* Facilitators page */
 
 .maincaption2 {
   font-size: 3.5rem;
@@ -21,49 +98,8 @@ body {
   text-shadow: 2px 2px 3px#070707;
 }
 
-.sub {
-  font-size: 2.5rem;
-  margin-top: -2rem;
-  text-shadow: 2px 2px 3px#070707;
-}
 
-.subcaption {
-  padding: 0 10%;
-  margin-top: -2rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 2px 2px 3px#070707;
-  font-size: 1.2rem;
-}
-
-.review {
-  margin-top: -1rem;
-  font-size: 1rem;
-  padding: 0 22%;
-}
-
-.aprov {
-  font-size: 1.4rem;
-  color: #ed8e00;
-}
-
-.thanku {
-  margin-top: -.7rem;
-}
-
-header {
-  background-image: url(images/img1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* background-color: #283b12; */
-  height: 35vh;
-  color: white;
-  padding: 4rem 1rem;
-  text-align: center;
- 
-}
-
-.facs {
+.facilitators {
   background-image: url(images/img1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,32 +111,6 @@ header {
  
 }
 
-section {
-  padding: 2rem;
-  text-align: center;
-}
-
-button {
-  width: 20rem;
-  height: 60px;
-  border: none;
-  box-shadow: 2px 2px 5px black;
-  border-radius: 4px;
-  background-color: #ED0800;
-  color: white;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-button:hover {
-  width: 20.4rem;
-  height: 60.4px;
-  border: 3px solid white;
-}
-
 .telegram-button {
   font-size: 1.1rem;
   font-weight: bold;
@@ -109,8 +119,90 @@ button:hover {
 
 }
 
-
-#timer {
-  font-size: 24px;
-  margin-top: 15px;
+.toplink {
+  text-align: left;
+  font-weight: normal;
 }
+
+
+/* ========== Phones ========== */
+
+@media screen and (max-width: 780px) {
+
+
+  header {
+       
+    color: white;
+    text-align: center;
+    
+   
+  }
+
+  
+  button {
+    width: 15em;
+    height: 60px;
+    transition: .3s;
+  }
+
+  button:hover {
+    width: 15.4rem;
+    height: 60.4px;
+    border: 3px solid white;
+  }
+  
+  
+  .maincaption {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px#070707;
+  }
+  
+  .cards {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    margin-top: 3px;
+    
+  }
+  
+  img {
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  /* facilitators page */
+
+  .maincaption2 {
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px#070707;
+  }
+
+  .subcaption2 {
+    padding: 0 4rem;
+    margin-top: -1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 3px#070707;
+    font-size: 1.5rem;
+  }
+  
+
+  .toplink {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .facilitators {
+
+  }
+
+
+
+} 

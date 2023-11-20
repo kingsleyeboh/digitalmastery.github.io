@@ -32,6 +32,11 @@ body {
   font-size: 1.3rem;
 }
 
+.wrapper_home {
+  width: 100vw;
+  height: 100vh;
+}
+
 
 .wrapper {
   height: 80vh;
@@ -44,7 +49,7 @@ header {
   background-position: center;
   width: 100%;
   color: white;
-  padding: 3rem 0.5rem;
+  padding: 2rem 0.3rem;
   text-align: center; 
 }
 
@@ -74,7 +79,7 @@ button:hover {
 
 .cards {
   display: flex;
-  padding: 15px;
+  padding: 10px;
   
 }
 
@@ -108,6 +113,12 @@ img {
   text-shadow: 2px 2px 3px#070707;
 }
 
+.wrapper {
+  padding: 0 150px;
+  text-align: center;
+  /* margin-bottom: 100px; */
+}
+
 
 .facilitators {
   background-image: url(images/img1.jpg);
@@ -118,21 +129,92 @@ img {
   color: white;
   padding: 3rem 1rem;
   text-align: center;  
+  margin-bottom: 40px;
  
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}        
+
+
+.facilitator {
+
+  display: flex;
+  margin: 20px 0;
+  text-align: left;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  width: 70%;
+  position: absolute;
+  font-size: .7rem;
+  bottom: 5px;
+  left: 30px;
+  right: 30px;
+  color: azure;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgba(26, 26, 26, 0.7);
+  padding: 6px;
+}
+
+/* .facilitator img {
+  width: 100%;
+  border-radius: 5px;
+} */
+
+.photo {
+  position: relative;
+  background-image: url(images/WhatsApp\ Image\ 2023-11-11\ at\ 9.59.52\ AM.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 220px;
+  padding: 5px;
+  text-align: center;
+}
+
+.photo2 {
+  position: relative;
+  background-image: url(images/IMG_20231110_093129_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 220px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.bio {
+  text-align: left;
+  padding: 5px 25px;
+  width: 70%;
+}
+
 .telegram-button {
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 500;
   text-transform: capitalize;
   color: #0400ed;
+  /* margin: 100px; */
 
 }
 
-.toplink {
-  text-align: left;
-  font-weight: normal;
-}
+/* .toplink {
+  margin: 10px;
+} */
+
+
 
 
 /* ========== Phones ========== */
@@ -206,13 +288,71 @@ img {
 
   /* facilitators page */
 
+  .wrapper {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  .photo, .photo2 {
+    /* position: none; */
+    background-position: top;
+    width: 100px;
+    height: 200px;
+    /* padding: 3px; */
+    margin: 0 auto;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+
+  .name {
+    /* width: 50%; */
+    /* position: absolute;
+    font-size: .7rem; */
+    bottom: -80px;
+    left: 30px;
+    right: 30px;
+    margin-bottom: 50px;
+    color: azure;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(3, 3, 3, 0.7);
+    padding: 4px;
+  }
+
+  .facilitator {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .bio {
+    /* text-align: left; */
+    margin: 0 auto;
+    padding: 30px 10px;
+    width: 80%;
+    text-align: justify;
+  
+
+  }
+  .facilitators {
+
+    
+
+  }  
+
   .maincaption2 {
     font-size: 2.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     letter-spacing: 3px;
     text-shadow: 2px 2px 3px#070707;
-  }
+  }  
 
   .subcaption2 {
     padding: 0 4rem;
@@ -226,13 +366,18 @@ img {
   .toplink {
     text-align: center;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: rem;
   }
 
-  .facilitators {
+  .footer {
+    width: 100vw;
+    background-color: #333;
+    margin-bottom: 50px;
 
   }
 
+  
+  
 
 
 } 
